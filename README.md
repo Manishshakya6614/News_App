@@ -23,9 +23,32 @@ Stay informed with the latest news from around the world with the News App.
 
 ## Screenshots
 
-![Screenshot 1](<![WhatsApp Image 2024-05-09 at 18 19 20](https://github.com/Manishshakya6614/News_App/assets/98381672/2c707b88-575b-479b-b9d8-834e7f5b0d1d)>)
-![Screenshot 2](<link to screenshot 2>)
-![Screenshot 3](<link to screenshot 3>)
+<table>
+  <tr>
+    <td align="center">
+      <img src="https://github.com/Manishshakya6614/News_App/assets/98381672/2c707b88-575b-479b-b9d8-834e7f5b0d1d" alt="Headlines Screen" width="400">
+      <br>
+      Headlines Screen
+    </td>
+    <td align="center">
+      <img src="https://github.com/Manishshakya6614/News_App/assets/98381672/1d323c83-279a-403c-bbcc-1c483d3701df" alt="Favourites Screen" width="400">
+      <br>
+      Favourites Screen
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <img src="https://github.com/Manishshakya6614/News_App/assets/98381672/a7d8546b-e68c-4dce-9522-54a219d08839" alt="Screenshot 3" width="400">
+      <br>
+      Favourites Screen with Swipe to delete feature
+    </td>
+    <td align="center">
+      <img src="https://github.com/Manishshakya6614/News_App/assets/98381672/b93da977-cadd-4d38-a2bf-c8a6cbab42bb" alt="Screenshot 4" width="400">
+      <br>
+      Search Screen
+    </td>
+  </tr>
+</table>
 
 
 ## Acknowledgments
