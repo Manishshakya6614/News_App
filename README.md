@@ -59,3 +59,6 @@ Stay informed with the latest news from around the world with the News App.
 - Square for developing Retrofit
 - Google for developing Navigation Component and Coroutines
 - Google for developing Room Database
+
+## Contributing
+Contributions are welcome! 
