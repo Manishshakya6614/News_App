@@ -1,74 +1,48 @@
-News App
+# News App
 
-A simple news application built using Kotlin, NewsAPI, and various Android technologies such as MVVM, Retrofit, Navigation Component, Coroutines, and Room Database.
+![News App Banner](<link to your banner image>)
 
-Features
+Stay informed with the latest news from around the world with the News App. Powered by the NewsAPI.org, this app brings you the top headlines, allows you to save your favorite articles, and enables easy searching for specific topics.
 
-Bottom navigation with three categories: headlines, favorites, and search
-Real-time news fetching from NewsAPI
-Web view for viewing articles in Article Fragment
-Floating action button for saving articles to favorites
-Favorites section for saved articles in Favorites Fragment
-Swipe-to-delete and undo functionality for removing articles from favorites
-Search functionality for finding news articles in Search Fragment
-Screenshots
+## Features
 
-<img src="https://github.com/Manishshakya6614/News_App/blob/main/screenshots/headlines.png" width="250"> <img src="https://github.com/Manishshakya6614/News_App/blob/main/screenshots/article.png" width="250"> <img src="https://github.com/Manishshakya6614/News_App/blob/main/screenshots/favorites.png" width="250"> <img src="https://github.com/Manishshakya6614/News_App/blob/main/screenshots/search.png" width="250">
+- **Headlines:** Get the latest news headlines from various sources worldwide.
+- **Favorites:** Save your favorite articles to read later.
+- **Search:** Easily search for news articles based on keywords or topics of interest.
+- **Article Viewer:** View full articles within the app using a built-in web view.
+- **Offline Support:** Access previously loaded articles even without an internet connection.
+- **Swipe to Remove:** Swipe left to remove articles from your favorites list with an option to undo.
 
-Getting Started
+## Technologies Used
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
+- **MVVM Architecture:** Follows the Model-View-ViewModel architectural pattern for organized and scalable code.
+- **Retrofit:** For making network requests to the NewsAPI.org backend.
+- **Coroutines:** Utilized for asynchronous and non-blocking programming.
+- **Navigation Component:** Simplifies navigation between fragments within the app.
+- **Room Database:** Stores favorite articles locally for offline access.
+- **Bottom Navigation:** Provides easy access to different sections of the app.
 
-Prerequisites
+## Screenshots
 
-What things you need to install the software and how to install them
+![Screenshot 1](<link to screenshot 1>)
+![Screenshot 2](<link to screenshot 2>)
+![Screenshot 3](<link to screenshot 3>)
 
-Android Studio
-NewsAPI Key
-Installing
+## Usage
 
-A step-by-step series of examples that tell you how to get a development environment running
+1. Clone the repository: `git clone https://github.com/Manishshakya6614/News_App.git`
+2. Open the project in Android Studio.
+3. Build and run the app on your device or emulator.
 
-Say what the step will be
+## Credits
 
-bash
-Edit
-Run
-Full Screen
-Copy code
-1- Step 1: Clone the repository
-2- Step 2: Get NewsAPI Key
-3- Step 3: Add NewsAPI Key to the project
-4- Step 4: Run the project
-Running the tests
+- **NewsAPI.org:** For providing the news data through their API.
+- **Open Source Libraries:** Thanks to the developers of Retrofit, Room, and other open-source libraries used in this project.
 
-Explain how to run the automated tests for this system
+## Contributing
 
-Break down into end to end tests
+Contributions are welcome! If you have any suggestions, feature requests, or bug reports, please [open an issue](<link to your issue tracker>) or [submit a pull request](<link to your pull request page>).
 
-Explain what these tests test and why
+## License
 
-bash
-Edit
-Run
-Full Screen
-Copy code
-1- Test 1: Test news feed loading
-2- Test 2: Test news feed customization
-3- Test 3: Test news sharing
-Built With
-
-Kotlin - The programming language used
-NewsAPI - The API used
-MVVM Architecture - The architecture pattern used
-Retrofit - The type-safe HTTP client used
-Navigation Component - The navigation framework used
-Coroutines - The concurrency library used
-Room Database - The database library used
-
-Acknowledgments
-
-NewsAPI Documentation
-Retrofit Documentation
-Navigation Component Documentation
-[Coroutines Documentation](https://
+This project is licensed under the [MIT License](LICENSE).
