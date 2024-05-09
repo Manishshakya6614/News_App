@@ -1,20 +1,19 @@
 # News App
-
-![News App Banner](<link to your banner image>)
-
-Stay informed with the latest news from around the world with the News App. Powered by the NewsAPI.org, this app brings you the top headlines, allows you to save your favorite articles, and enables easy searching for specific topics.
+A simple and elegant news application built using Kotlin, NewsAPI, and various Android technologies such as MVVM, Retrofit, Navigation Component, Coroutines, and Room Database.
+Stay informed with the latest news from around the world with the News App.
 
 ## Features
+- Bottom navigation with three categories: headlines, favorites, and search
+- Real-time news fetching from NewsAPI
+- Web view for viewing articles in Article Fragment
+- Floating action button for saving articles to favorites
+- Favorites section for saved articles in Favorites Fragment
+- Swipe-to-delete and undo functionality for removing articles from favorites
+- Search functionality for finding news articles in Search Fragment
 
-- **Headlines:** Get the latest news headlines from various sources worldwide.
-- **Favorites:** Save your favorite articles to read later.
-- **Search:** Easily search for news articles based on keywords or topics of interest.
-- **Article Viewer:** View full articles within the app using a built-in web view.
-- **Offline Support:** Access previously loaded articles even without an internet connection.
-- **Swipe to Remove:** Swipe left to remove articles from your favorites list with an option to undo.
-
-## Technologies Used
-
+## Built With
+- **Kotlin:** The programming language used.
+- **NewsAPI:** The API used.
 - **MVVM Architecture:** Follows the Model-View-ViewModel architectural pattern for organized and scalable code.
 - **Retrofit:** For making network requests to the NewsAPI.org backend.
 - **Coroutines:** Utilized for asynchronous and non-blocking programming.
@@ -24,25 +23,16 @@ Stay informed with the latest news from around the world with the News App. Powe
 
 ## Screenshots
 
-![Screenshot 1](<link to screenshot 1>)
+![Screenshot 1](<![WhatsApp Image 2024-05-09 at 18 19 20](https://github.com/Manishshakya6614/News_App/assets/98381672/2c707b88-575b-479b-b9d8-834e7f5b0d1d)>)
 ![Screenshot 2](<link to screenshot 2>)
 ![Screenshot 3](<link to screenshot 3>)
 
-## Usage
 
-1. Clone the repository: `git clone https://github.com/Manishshakya6614/News_App.git`
-2. Open the project in Android Studio.
-3. Build and run the app on your device or emulator.
+## Acknowledgments
 
-## Credits
-
-- **NewsAPI.org:** For providing the news data through their API.
-- **Open Source Libraries:** Thanks to the developers of Retrofit, Room, and other open-source libraries used in this project.
-
-## Contributing
-
-Contributions are welcome! If you have any suggestions, feature requests, or bug reports, please [open an issue](<link to your issue tracker>) or [submit a pull request](<link to your pull request page>).
-
-## License
-
-This project is licensed under the [MIT License](LICENSE).
+- NewsAPI for providing the news data
+- Android for developing the Android platform
+- JetBrains for developing Kotlin
+- Square for developing Retrofit
+- Google for developing Navigation Component and Coroutines
+- Google for developing Room Database
